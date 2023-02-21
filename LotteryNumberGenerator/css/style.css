@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+    font-family: cursive;
+    color: #333;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    background: radial-gradient(red, transparent);
+    
+  }
+  
+  .lottery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background: radial-gradientred;
+    justify-items: center;
+  }
+  
+  .lottery-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 170px;
+    background-color: rgb(220, 82, 82);
+    border-radius: 60px;
+    animation-name: lottery-number-animation;
+    animation-duration: 1s;
+  }
+  
+  @keyframes lottery-number-animation {
+    0% {
+      transform: scale(0.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .number {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .image {
+    height: 100px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: cursive;
+  }
+  
+  button:hover {
+    background-color: #EE4B2B;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 50px 0;
+    font-family: cursive;
+  }
+  
